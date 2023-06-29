@@ -18,3 +18,13 @@ Run a local development server on [localhost:8080](http://localhost:8080):
 ```sh
 npm run start
 ```
+
+## Website
+
+To build the website:
+
+```sh
+dotnet fsi src/GenerateSite.fsx
+```
+
+Building & deploying is done automatically on commits to master.

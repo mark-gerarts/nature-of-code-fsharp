@@ -15,7 +15,31 @@
 
 <body>
   <h1>Nature Of Code in F#</h1>
+  <div class="canvas-wrapper"></div>
+  <p id="message" style="display:none;">
+    This shows a specific sketch based on the URL. Try for example <a
+      href="#Introduction/Example01">#Introduction/Example01</a>.
+  </p>
   <script src="bundle.js"></script>
+  <script>
+    const onHashChange = () => {
+      const hash = window.location.hash;
+      const message = document.querySelector('#message');
+
+      document.querySelector('.canvas-wrapper').innerHTML = '';
+
+      if (hash) {
+        message.style.display = "none";
+        NatureOfCode.runSketch(hash.substr(1), ".canvas-wrapper");
+      }
+      else {
+        message.style.display = "block";
+      }
+    };
+
+    window.addEventListener('hashchange', onHashChange);
+    onHashChange();
+  </script>
 </body>
 
 </html>

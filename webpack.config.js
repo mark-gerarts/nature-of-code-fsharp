@@ -10,6 +10,8 @@ module.exports = {
     output: {
         path: path.join(__dirname, "./public"),
         filename: "bundle.js",
+        libraryTarget: "var",
+        library: "NatureOfCode"
     },
     devServer: {
         static: {
