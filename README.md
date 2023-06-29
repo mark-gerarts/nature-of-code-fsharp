@@ -21,10 +21,10 @@ npm run start
 
 ## Website
 
-To build the website:
+To build the static website:
 
 ```sh
-dotnet fsi src/GenerateSite.fsx
+./generate-site.sh
 ```
 
 Building & deploying is done automatically on commits to master.

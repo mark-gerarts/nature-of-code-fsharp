@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ sketchTitle }} | {{ siteTitle }}</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <h1>{{ siteTitle }}</h1>
+    <h2>{{ chapter }}</h2>
+    <h3>{{ sketchTitle }}</h3>
+    <div class="canvas-wrapper"></div>
+    <ul>
+        <li>
+            <a href="https://github.com/mark-gerarts/nature-of-code-fsharp/tree/main/src/{{ sketchPath }}">
+                View sketch source
+            </a>
+        </li>
+        <li>
+            <a href="./">
+                Go to chapter index
+            </a>
+        </li>
+        <li>
+            <a href="./../">
+                Go to homepage
+            </a>
+        </li>
+    </ul>
+    <script src="../bundle.js"></script>
+    <script>
+        NatureOfCode.runSketch("{{ sketchName }}", ".canvas-wrapper");
+    </script>
+</body>
+
+</html>

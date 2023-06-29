@@ -4,8 +4,9 @@ introduction: |
   implemented in F#. View the source on <a
   href="https://github.com/mark-gerarts/nature-of-code-fsharp">Github</a>.
 content:
-  - name: 0. Introduction
+  - name: I. Introduction
     directory: Introduction
     content:
       - name: "Example I.1: Traditional random walk"
         file: TraditionalRandomWalk
+        index: Example01
