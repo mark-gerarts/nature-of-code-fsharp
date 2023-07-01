@@ -1,10 +1,8 @@
 body {
-    margin: 40px auto;
-    max-width: 650px;
-    line-height: 1.6;
-    font-size: 18px;
+    margin: 0 auto;
+    max-width: 740px;
     color: #222;
-    padding: 0 10px;
+    padding: 10px;
     background-color: #FAFAFA;
 }
 
