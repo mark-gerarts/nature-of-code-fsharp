@@ -1,3 +1,4 @@
+//! Exercise I.1: Walker that tends to move to the bottom right
 module NatureOfCode.Introduction.Exercise01.DownRightWalker
 
 open P5.Core
