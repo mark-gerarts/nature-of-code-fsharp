@@ -4,6 +4,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Introduction/Example01/TraditionalRandomWalk.fs" />
+    <Compile Include="Introduction/Example02/RandomNumberDistribution.fs" />
+    <Compile Include="Introduction/Example03/RightWalker.fs" />
+    <Compile Include="Introduction/Exercise01/DownRightWalker.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>

@@ -77,7 +77,7 @@ let generateSketch (siteStructure: Site) (chapter: Chapter) (sketch: Sketch) =
     |> fun p -> p.Replace("{{ siteTitle }}", siteStructure.title)
     |> fun p -> p.Replace("{{ chapter }}", chapter.name)
     |> fun p -> p.Replace("{{ sketchTitle }}", sketch.name)
-    |> fun p -> p.Replace("{{ sketchName }}", sprintf "%s/%s" chapter.directory sketch.file)
+    |> fun p -> p.Replace("{{ sketchName }}", sprintf "%s/%s/%s" chapter.directory sketch.index sketch.file)
     |> fun p -> p.Replace("{{ sketchPath }}", sprintf "%s/%s/%s.fs" chapter.directory sketch.index sketch.file)
     |> fun p -> File.WriteAllText(sprintf "./gh-pages/output/%s" filename, p)
 

@@ -10,3 +10,12 @@ content:
       - name: "Example I.1: Traditional random walk"
         file: TraditionalRandomWalk
         index: Example01
+      - name: "Example I.2: Random number distribution"
+        file: RandomNumberDistribution
+        index: Example02
+      - name: "Example I.3: Walker that tends to move to the right"
+        file: RightWalker
+        index: Example03
+      - name: "Exercise I.1: Walker that tends to move to the bottom right"
+        file: TraditionalRandomWalk
+        index: Exercise01
