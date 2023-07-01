@@ -1,0 +1,12 @@
+title: Nature of Code - F#
+introduction: |
+  <a href="https://natureofcode.com/">Nature of Code</a> examples and exercises
+  implemented in F#. View the source on <a
+  href="https://github.com/mark-gerarts/nature-of-code-fsharp">Github</a>.
+content:
+  - name: I. Introduction
+    directory: Introduction
+    content:
+      - name: "Example I.1: Traditional random walk"
+        file: TraditionalRandomWalk
+        index: Example01

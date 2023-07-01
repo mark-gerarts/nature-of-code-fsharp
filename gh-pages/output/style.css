@@ -1,0 +1,17 @@
+body {
+    margin: 0 auto;
+    max-width: 740px;
+    color: #222;
+    padding: 10px;
+    background-color: #FAFAFA;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2
+}
+
+canvas {
+    background: #FFFFFF;
+}

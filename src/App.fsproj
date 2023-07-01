@@ -3,6 +3,7 @@
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Introduction/Example01/TraditionalRandomWalk.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>
