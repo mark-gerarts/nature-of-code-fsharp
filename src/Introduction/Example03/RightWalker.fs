@@ -1,3 +1,4 @@
+//! Example I.3: Walker that tends to move to the right
 module NatureOfCode.Introduction.Example03.RightWalker
 
 open P5.Core

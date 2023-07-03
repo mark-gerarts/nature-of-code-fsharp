@@ -1,3 +1,4 @@
+//! Exercise I.1: Walker that tends to move to the bottom right
 module NatureOfCode.Introduction.Exercise01.DownRightWalker
 
 open P5.Core
@@ -14,8 +15,6 @@ type Direction =
     | Down
     | Left
     | Right
-
-let random = new System.Random()
 
 let setup p5 =
     createCanvas p5 720 400

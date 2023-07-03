@@ -1,3 +1,4 @@
+//! Example I.2: Random number distribution
 module NatureOfCode.Introduction.Example02.RandomNumberDistribution
 
 open P5.Core

@@ -1,3 +1,4 @@
+//! Example I.1: Traditional random walk
 module NatureOfCode.Introduction.Example01.TraditionalRandomWalk
 
 open P5.Core
