@@ -7,6 +7,7 @@ let private sketches =
     [ "Introduction/Example01/TraditionalRandomWalk", Introduction.Example01.TraditionalRandomWalk.run
       "Introduction/Example02/RandomNumberDistribution", Introduction.Example02.RandomNumberDistribution.run
       "Introduction/Example03/RightWalker", Introduction.Example03.RightWalker.run
+      "Introduction/Example04/GaussianDistribution", Introduction.Example04.GaussianDistribution.run
       "Introduction/Exercise01/DownRightWalker", Introduction.Exercise01.DownRightWalker.run
       "Introduction/Exercise03/DynamicRandomWalker", Introduction.Exercise03.DynamicRandomWalker.run ]
     |> Map.ofList
