@@ -1,7 +1,10 @@
 # Nature of Code - F\#
 
 [Nature of Code](https://natureofcode.com/book/introduction/) ported to F# using
-[Fable](https://fable.io/) and [Perfect Fifth](https://github.com/mark-gerarts/perfect-fifth).
+[Fable](https://fable.io/) and [Perfect
+Fifth](https://github.com/mark-gerarts/perfect-fifth).
+
+Live site: [https://mark-gerarts.github.io/nature-of-code-fsharp/](https://mark-gerarts.github.io/nature-of-code-fsharp/)
 
 ## Development
 

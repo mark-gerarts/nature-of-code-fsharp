@@ -8,7 +8,9 @@
     <Compile Include="Introduction/Example03/RightWalker.fs" />
     <Compile Include="Introduction/Example04/GaussianDistribution.fs" />
     <Compile Include="Introduction/Exercise01/DownRightWalker.fs" />
-    <Compile Include="Introduction/Exercise03/DynamicRandomWalker.fs" />
+    <Compile Include="Introduction/Exercise03/DynamicRandomWalk.fs" />
+    <Compile Include="Introduction/Exercise04/GaussianPaintSplatter.fs" />
+    <Compile Include="Introduction/Exercise05/GaussianRandomWalk.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>

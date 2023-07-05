@@ -1,5 +1,5 @@
-//! Exercise I.3: Dynamic random walker
-module NatureOfCode.Introduction.Exercise03.DynamicRandomWalker
+//! Exercise I.3: Dynamic random walk
+module NatureOfCode.Introduction.Exercise03.DynamicRandomWalk
 
 open P5.Core
 open P5.Environment

@@ -16,8 +16,6 @@ type Direction =
     | Left
     | Right
 
-let random = new System.Random()
-
 let setup p5 =
     createCanvas p5 720 400
     background p5 (Grayscale 255)
