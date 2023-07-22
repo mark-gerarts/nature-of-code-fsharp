@@ -7,11 +7,15 @@
     <Compile Include="Introduction/Example02/RandomNumberDistribution.fs" />
     <Compile Include="Introduction/Example03/RightWalker.fs" />
     <Compile Include="Introduction/Example04/GaussianDistribution.fs" />
+    <Compile Include="Introduction/Example05/PerlinNoiseWalker.fs" />
+    <Compile Include="Introduction/Example06/PerlinNoise2D.fs" />
     <Compile Include="Introduction/Exercise01/DownRightWalker.fs" />
     <Compile Include="Introduction/Exercise03/DynamicRandomWalk.fs" />
     <Compile Include="Introduction/Exercise04/GaussianPaintSplatter.fs" />
     <Compile Include="Introduction/Exercise05/GaussianRandomWalk.fs" />
     <Compile Include="Introduction/Exercise06/CustomDistributionRandomWalk.fs" />
+    <Compile Include="Introduction/Exercise07/PerlinNoiseWalk.fs" />
+    <Compile Include="Introduction/Exercise08/AdjustablePerlinNoise2D.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>

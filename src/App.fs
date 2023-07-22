@@ -8,11 +8,15 @@ let private sketches =
       "Introduction/Example02/RandomNumberDistribution", Introduction.Example02.RandomNumberDistribution.run
       "Introduction/Example03/RightWalker", Introduction.Example03.RightWalker.run
       "Introduction/Example04/GaussianDistribution", Introduction.Example04.GaussianDistribution.run
+      "Introduction/Example05/PerlinNoiseWalker", Introduction.Example05.PerlinNoiseWalker.run
+      "Introduction/Example06/PerlinNoise2D", Introduction.Example06.PerlinNoise2D.run
       "Introduction/Exercise01/DownRightWalker", Introduction.Exercise01.DownRightWalker.run
       "Introduction/Exercise03/DynamicRandomWalk", Introduction.Exercise03.DynamicRandomWalk.run
       "Introduction/Exercise04/GaussianPaintSplatter", Introduction.Exercise04.GaussianPaintSplatter.run
       "Introduction/Exercise05/GaussianRandomWalk", Introduction.Exercise05.GaussianRandomWalk.run
-      "Introduction/Exercise06/CustomDistributionRandomWalk", Introduction.Exercise06.CustomDistributionRandomWalk.run ]
+      "Introduction/Exercise06/CustomDistributionRandomWalk", Introduction.Exercise06.CustomDistributionRandomWalk.run
+      "Introduction/Exercise07/PerlinNoiseWalk", Introduction.Exercise07.PerlinNoiseWalk.run
+      "Introduction/Exercise08/AdjustablePerlinNoise2D", Introduction.Exercise08.AdjustablePerlinNoise2D.run ]
     |> Map.ofList
 
 let runSketch name canvasSelector =
