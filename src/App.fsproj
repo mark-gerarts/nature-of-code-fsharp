@@ -11,6 +11,7 @@
     <Compile Include="Introduction/Exercise03/DynamicRandomWalk.fs" />
     <Compile Include="Introduction/Exercise04/GaussianPaintSplatter.fs" />
     <Compile Include="Introduction/Exercise05/GaussianRandomWalk.fs" />
+    <Compile Include="Introduction/Exercise06/CustomDistributionRandomWalk.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,5 +1,5 @@
-//! Exercise I.5: Gaussian random walk
-module NatureOfCode.Introduction.Exercise05.GaussianRandomWalk
+//! Exercise I.6: Custom distribution random walk
+module NatureOfCode.Introduction.Exercise06.CustomDistributionRandomWalk
 
 open P5.Core
 open P5.Environment
@@ -11,6 +11,8 @@ open P5.Math
 type Pos = { x: float; y: float }
 
 type State = { lastPos: Pos; currentPos: Pos }
+
+let random = System.Random()
 
 let setup p5 =
     createCanvas p5 720 400
@@ -24,12 +26,20 @@ let setup p5 =
     { lastPos = center
       currentPos = center }
 
-let update p5 state =
-    let mean = 0.0
-    let sd = 3.0
 
-    let xStep = sd * (randomGaussian p5) + mean
-    let yStep = sd * (randomGaussian p5) + mean
+let rec customDistributionValue p5 =
+    let v = random.NextDouble()
+    let p = random.NextDouble()
+    let sign = randomChoice p5 [ -1.0; 1.0 ]
+
+    if v < p * p then
+        v * 10.0 * sign
+    else
+        customDistributionValue p5
+
+let update p5 state =
+    let xStep = customDistributionValue p5
+    let yStep = customDistributionValue p5
 
     let newPos =
         { x = state.currentPos.x + xStep

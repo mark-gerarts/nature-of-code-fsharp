@@ -11,7 +11,8 @@ let private sketches =
       "Introduction/Exercise01/DownRightWalker", Introduction.Exercise01.DownRightWalker.run
       "Introduction/Exercise03/DynamicRandomWalk", Introduction.Exercise03.DynamicRandomWalk.run
       "Introduction/Exercise04/GaussianPaintSplatter", Introduction.Exercise04.GaussianPaintSplatter.run
-      "Introduction/Exercise05/GaussianRandomWalk", Introduction.Exercise05.GaussianRandomWalk.run ]
+      "Introduction/Exercise05/GaussianRandomWalk", Introduction.Exercise05.GaussianRandomWalk.run
+      "Introduction/Exercise06/CustomDistributionRandomWalk", Introduction.Exercise06.CustomDistributionRandomWalk.run ]
     |> Map.ofList
 
 let runSketch name canvasSelector =
