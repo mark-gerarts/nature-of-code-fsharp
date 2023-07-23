@@ -56,5 +56,4 @@ let draw p5 _ =
     noLoop p5
     drawNoise p5
 
-
 let run node = animate node setup draw

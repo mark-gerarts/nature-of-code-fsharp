@@ -16,6 +16,8 @@
     <Compile Include="Introduction/Exercise06/CustomDistributionRandomWalk.fs" />
     <Compile Include="Introduction/Exercise07/PerlinNoiseWalk.fs" />
     <Compile Include="Introduction/Exercise08/AdjustablePerlinNoise2D.fs" />
+    <Compile Include="Introduction/Exercise09/AnimatedPerlinNoise2D.fs" />
+    <Compile Include="Introduction/Exercise10/PerlinLandscape.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>
