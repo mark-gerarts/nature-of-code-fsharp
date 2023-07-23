@@ -18,6 +18,7 @@
     <Compile Include="Introduction/Exercise08/AdjustablePerlinNoise2D.fs" />
     <Compile Include="Introduction/Exercise09/AnimatedPerlinNoise2D.fs" />
     <Compile Include="Introduction/Exercise10/PerlinLandscape.fs" />
+    <Compile Include="Vectors/Example01/BouncingBallWithNoVectors.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>
