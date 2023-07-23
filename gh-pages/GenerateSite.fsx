@@ -99,7 +99,7 @@ let generateHomepage (siteStructure: Site) =
     |> fun p -> File.WriteAllText("./gh-pages/output/index.html", p)
 
 let generateChapterIndex (siteStructure: Site) (chapter: Chapter) =
-    let mutable toc = [ "<ul>" ]
+    let mutable toc = [ "<a href=\"../\">« Home</a>"; "<ul>" ]
 
     for sketch in chapter.sketches do
         let sketchUrl = sprintf "./%s.html" sketch.file
@@ -113,7 +113,6 @@ let generateChapterIndex (siteStructure: Site) (chapter: Chapter) =
 
     File.ReadAllText "./gh-pages/index.html"
     |> fun p -> p.Replace("{{ subtitle }}", sprintf "<h2>%s</h2>" chapter.name)
-    |> fun p -> p.Replace("{{ introduction }}", "<a href=\"../\">« Home</a>")
     |> fun p -> p.Replace("{{ content }}", String.concat "" toc)
     |> fun p -> p.Replace("{{ stylesheet }}", "./../style.css")
     |> fun p -> File.WriteAllText(sprintf "./gh-pages/output/%s/index.html" chapter.directory, p)
