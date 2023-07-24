@@ -19,7 +19,10 @@ let private sketches =
       "Introduction/Exercise08/AdjustablePerlinNoise2D", Introduction.Exercise08.AdjustablePerlinNoise2D.run
       "Introduction/Exercise09/AnimatedPerlinNoise2D", Introduction.Exercise09.AnimatedPerlinNoise2D.run
       "Introduction/Exercise10/PerlinLandscape", Introduction.Exercise10.PerlinLandscape.run
-      "Vectors/Example01/BouncingBallWithNoVectors", Vectors.Example01.BouncingBallWithNoVectors.run ]
+      "Vectors/Example01/BouncingBallWithNoVectors", Vectors.Example01.BouncingBallWithNoVectors.run
+      "Vectors/Example02/BouncingBallWithPVectors", Vectors.Example02.BouncingBallWithPVectors.run
+      "Vectors/Exercise02/VectorWalk", Vectors.Exercise02.VectorWalk.run
+      "Vectors/Exercise03/BouncingBall3D", Vectors.Exercise03.BouncingBall3D.run ]
     |> Map.ofList
 
 let runSketch name canvasSelector =
