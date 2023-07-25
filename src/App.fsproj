@@ -20,6 +20,8 @@
     <Compile Include="Introduction/Exercise10/PerlinLandscape.fs" />
     <Compile Include="Vectors/Example01/BouncingBallWithNoVectors.fs" />
     <Compile Include="Vectors/Example02/BouncingBallWithPVectors.fs" />
+    <Compile Include="Vectors/Example03/VectorSubtraction.fs" />
+    <Compile Include="Vectors/Example04/VectorMultiplication.fs" />
     <Compile Include="Vectors/Exercise02/VectorWalk.fs" />
     <Compile Include="Vectors/Exercise03/BouncingBall3D.fs" />
     <Compile Include="App.fs" />

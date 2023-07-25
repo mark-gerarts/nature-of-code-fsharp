@@ -21,6 +21,8 @@ let private sketches =
       "Introduction/Exercise10/PerlinLandscape", Introduction.Exercise10.PerlinLandscape.run
       "Vectors/Example01/BouncingBallWithNoVectors", Vectors.Example01.BouncingBallWithNoVectors.run
       "Vectors/Example02/BouncingBallWithPVectors", Vectors.Example02.BouncingBallWithPVectors.run
+      "Vectors/Example03/VectorSubtraction", Vectors.Example03.VectorSubtraction.run
+      "Vectors/Example03/VectorMultiplication", Vectors.Example04.VectorMultiplication.run
       "Vectors/Exercise02/VectorWalk", Vectors.Exercise02.VectorWalk.run
       "Vectors/Exercise03/BouncingBall3D", Vectors.Exercise03.BouncingBall3D.run ]
     |> Map.ofList
