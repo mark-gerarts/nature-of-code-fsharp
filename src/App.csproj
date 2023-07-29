@@ -25,7 +25,6 @@
     <Compile Include="Vectors/Example05/VectorMagnitude.fs" />
     <Compile Include="Vectors/Example06/VectorNormalization.fs" />
     <Compile Include="Vectors/Example07/Motion101Velocity.fs" />
-    <Compile Include="Vectors/Example08/Motion101ConstantAcceleration.fs" />
     <Compile Include="Vectors/Exercise02/VectorWalk.fs" />
     <Compile Include="Vectors/Exercise03/BouncingBall3D.fs" />
     <Compile Include="App.fs" />
