@@ -28,6 +28,7 @@
     <Compile Include="Vectors/Example08/Motion101ConstantAcceleration.fs" />
     <Compile Include="Vectors/Exercise02/VectorWalk.fs" />
     <Compile Include="Vectors/Exercise03/BouncingBall3D.fs" />
+    <Compile Include="Vectors/Exercise05/Car.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>
