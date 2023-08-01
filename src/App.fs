@@ -28,9 +28,12 @@ let private sketches =
       "Vectors/Example07/Motion101Velocity", Vectors.Example07.Motion101Velocity.run
       "Vectors/Example08/Motion101ConstantAcceleration", Vectors.Example08.Motion101ConstantAcceleration.run
       "Vectors/Example09/Motion101RandomAcceleration", Vectors.Example09.Motion101RandomAcceleration.run
+      "Vectors/Example10/AcceleratingTowardsTheMouse", Vectors.Example10.AcceleratingTowardsTheMouse.run
       "Vectors/Exercise02/VectorWalk", Vectors.Exercise02.VectorWalk.run
       "Vectors/Exercise03/BouncingBall3D", Vectors.Exercise03.BouncingBall3D.run
-      "Vectors/Exercise05/Car", Vectors.Exercise05.Car.run ]
+      "Vectors/Exercise05/Car", Vectors.Exercise05.Car.run
+      "Vectors/Exercise06/PerlinNoiseAcceleration", Vectors.Exercise06.PerlinNoiseAcceleration.run
+      "Vectors/Exercise08/VariableAccelerationTowardsTheMouse", Vectors.Exercise08.VariableAccelerationTowardsTheMouse.run ]
     |> Map.ofList
 
 let runSketch name canvasSelector =
